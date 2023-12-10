@@ -10,11 +10,10 @@ public class GooglePage {
 		
 		    System.setProperty("webdriver.chrome.driver", "C:\\Users\\ManojTambe\\work\\chromedriver.exe");
 		 driver = new ChromeDriver();
-		    driver.get("https://google.com");
+		   
 		    
 		    driver.findElement(By.name("q")).sendKeys("javatpoint tutorials");  
 		          
-//		    driver.findElement(By.name("btnK")).click();
 
 		    
 		}
