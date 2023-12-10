@@ -19,4 +19,15 @@ public class GooglePage {
 		    
 		}
 	
+	public void test() {
+		
+	    System.setProperty("webdriver.chrome.driver", "C:\\Users\\ManojTambe\\work\\chromedriver.exe");
+	 driver = new ChromeDriver();
+	    driver.get("https://google.com");
+	    
+	  
+
+	    
+	}
+	
 	}
